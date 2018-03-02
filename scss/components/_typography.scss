@@ -1,0 +1,76 @@
+
+main {
+  font-family: $helvetica-font-stack;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-title {
+  text-align: center;
+  font-family: $helvetica-font-stack;
+
+  font-weight: $font-weight--thin;
+  margin-top: 1em;
+  margin-bottom: .2em;
+}
+
+.blog-title-text {
+  font-family: $helvetica-font-stack;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 1.5rem;
+  text-indent: 0px;
+  padding: 0;
+  margin: 0 auto;
+  font-weight: $font-weight--thin;
+
+}
+
+.about-me {
+  font-size: 2vmax;
+  font-family: $helvetica-font-stack;
+  font-weight: $font-weight--thin;
+  letter-spacing: 1px;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.about-me-text {
+  line-height: initial;
+  text-indent: 10px;
+
+}
+
+.blog-list >li >a {
+  color: $black;
+  font-size: 1.8vmax;
+  font-family: $helvetica-font-stack;
+  font-weight:$font-weight--medium;
+  @include mq(medium) {
+    font-weight: $font-weight--thin;
+    }
+  }
+
+.blog-list {
+  padding-left: 0;
+}
+
+
+
+
+p {
+  font-family: $helvetica-font-stack;
+  font-weight: $font-weight--thin;
+  letter-spacing: .8px;
+  text-indent: 50px;
+  margin: 0;
+  line-height: 22px;
+}
+
+.date {
+  font-weight: $font-weight--medium;
+  font-style: italic;
+}

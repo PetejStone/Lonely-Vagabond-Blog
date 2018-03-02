@@ -1,0 +1,34 @@
+
+.banner {
+  background-image: url('../images/mountains.jpg');
+  background-position: center;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  font-family: $tangerine;
+  margin-top: 1em;
+  @include mq(medium){
+    height: 15em;
+  }
+}
+
+.banner-text {
+  align-self: center;
+  margin: 0 auto;
+  color: $white;
+  font-size: 25px;
+  font-weight: $font-weight--thin;
+  @include mq(medium) {
+    font-size: 45px
+  }
+
+}
+
+.v {
+  font-size: 50px;
+  @include mq(medium) {
+    font-size: 95px
+  }
+
+}

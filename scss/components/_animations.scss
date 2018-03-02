@@ -1,0 +1,28 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    transition: transform ease-in-out;
+
+  }
+
+  50% {
+    transform: scale(1.05);
+    transition: transform ease-in-out;
+
+  }
+  100%{
+    transform: scale(1);
+    transition: transform ease-in-out;
+
+  }
+}
+
+
+
+li:hover {
+  animation: pulse .3s;
+}
+
+li a:hover {
+  color: darken($hover-color, 20%);
+}

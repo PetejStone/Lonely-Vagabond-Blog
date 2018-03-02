@@ -1,0 +1,47 @@
+
+body {
+  background-color: $main-color;
+}
+
+.profile-pic {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+  border-radius: 50%;
+  width: 50%;
+  height: 55%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.blog-list {
+    text-align: center;
+  }
+
+main {
+  width: 90%;
+  margin-bottom: 2em;
+}
+
+h2 {
+  text-align: center;
+  font-weight: $font-weight--medium;
+  font-family: $helvetica-font-stack;
+}
+
+.blog-list>li {
+  margin-bottom: 1em;
+}
+
+.blog-images {
+  border-style: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-style: none;
+  display: block;
+  width: 75%;
+  height: auto;
+
+}
