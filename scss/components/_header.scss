@@ -2,14 +2,15 @@
 .banner {
   background-image: url('../images/mountains.jpg');
   background-position: center;
-  height: 10em;
+  height: 18em;
+  width: 100%;
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
+  background-size: cover;
   font-family: $tangerine;
-  margin-top: 1em;
   @include mq(medium){
-    height: 15em;
+    height: 35em;
   }
 }
 

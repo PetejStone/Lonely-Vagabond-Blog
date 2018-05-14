@@ -8,7 +8,6 @@ main {
 .blog-title {
   text-align: center;
   font-family: $helvetica-font-stack;
-
   font-weight: $font-weight--thin;
   margin-top: 1em;
   margin-bottom: .2em;
@@ -17,7 +16,8 @@ main {
 .blog-title-text {
   font-family: $helvetica-font-stack;
   text-align: center;
-  text-decoration: underline;
+  width: fit-content;
+  border-bottom: 1px solid $black;
   font-style: italic;
   font-size: 1.5rem;
   text-indent: 0px;
@@ -63,8 +63,8 @@ main {
 
 p {
   font-family: $helvetica-font-stack;
-  font-weight: $font-weight--thin;
-  letter-spacing: .8px;
+  font-weight: 200;
+  letter-spacing: 0px;
   text-indent: 50px;
   margin: 0;
   line-height: 22px;
@@ -73,4 +73,8 @@ p {
 .date {
   font-weight: $font-weight--medium;
   font-style: italic;
+}
+
+footer p {
+  text-indent: 0px;
 }

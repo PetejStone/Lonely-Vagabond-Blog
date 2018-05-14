@@ -19,7 +19,7 @@
            <ul>
                <li><a href="../index.html">Home</a></li>
               <li><a href="../about.html">About</a></li>
-              <li><a href="../Blogs.html">Blogs</a></li>
+              <li><a href="../blogs.html">Blogs</a></li>
             </ul>
 
          </nav>
@@ -34,5 +34,9 @@
         </p>
       </div>
     </main>
+
+    <footer>
+      <a href="http://petejstone.github.io" target="_blank"><p>&copy;2018 StoneSquared<sup>2</sup> Development</p></a>
+    </footer>
   </body>
 </html>

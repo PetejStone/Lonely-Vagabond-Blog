@@ -19,10 +19,12 @@
 
 
 
-li:hover {
+li:hover,
+footer > a > p:hover {
   animation: pulse .3s;
 }
 
-li a:hover {
+li a:hover,
+footer a:hover {
   color: darken($hover-color, 20%);
 }
