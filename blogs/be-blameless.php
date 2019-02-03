@@ -2,29 +2,13 @@
 <html>
   <head>
     <Title>Be Blameless</Title>
-    <link rel="shortcut icon" href="../images/logo2.png">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header>
-      <div class="banner">
-        <h1 class="banner-text">
-            The Lonely<span class="v">V</span>agabond
-        </h1>
-      </div>
-
-        <nav>
-           <ul>
-               <li><a href="../index.html">Home</a></li>
-              <li><a href="../about.html">About</a></li>
-              <li><a href="../blogs.html">Blogs</a></li>
-            </ul>
-
-         </nav>
-    </header>
+    <?php include '../header.php'?>
     <main>
       <h2>Be Blameless</h2>
       <h4 class="date">July 18, 2016</h4>
