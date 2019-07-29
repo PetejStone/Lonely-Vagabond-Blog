@@ -468,7 +468,7 @@ p {
   letter-spacing: 0px;
   text-indent: 50px;
   margin: 0;
-  line-height: 22px; }
+  line-height: 25px; }
 
 .date {
   font-weight: 400;
@@ -476,6 +476,10 @@ p {
 
 footer p {
   text-indent: 0px; }
+
+.no-indent {
+  text-indent: 0px;
+  margin-top: 3rem; }
 
 .banner {
   background-image: url("../images/mountains.jpg");
@@ -520,12 +524,25 @@ body {
   max-width: 300px;
   max-height: 300px; }
 
+.skeptics-pic {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 50%;
+  height: 55%;
+  max-width: 300px;
+  max-height: 300px;
+  box-shadow: -2px -2px 4px #000;
+  cursor: pointer;
+  border-radius: 50%; }
+
 .blog-list {
   text-align: center; }
 
 main {
   width: 90%;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  max-width: 800px; }
 
 h2 {
   text-align: center;
@@ -582,5 +599,8 @@ footer > a > p:hover {
 li a:hover,
 footer a:hover {
   color: #3ab16b; }
+
+.skeptics-pic:hover {
+  animation: pulse .3s; }
 
 /*# sourceMappingURL=styles.css.map */

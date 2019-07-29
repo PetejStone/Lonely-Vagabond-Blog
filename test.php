@@ -26,21 +26,20 @@
          </nav>
     </header>
     <main>
-      <h2></h2>
-      <h4 class="date"></h4>
-      <div class="text">
-        <p>
-          <img class=" " src="../images/" alt="" >
-
-        </p>
-      </div>
-
-      <!-- begin wwww.htmlcommentbox.com -->
-         <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
-         <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-         <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24vhqhIHh1hJ%2Ff4.I8H1wU31"+"&opts=16862&num=10&ts=1542259310782");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-        <!-- end www.htmlcommentbox.com -->
+        <form method="post"  action="email.php" enctype="multipart/form-data" name="CR Form" id="myForm">
+            <div class="fields">
+                <div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+                <div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+                <div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+            </div>
+            <ul class="actions special">
+                <li><input type="submit" value="Send Message" /></li>
+            </ul>
+        </form>
     </main>
+
+   
+    
 
     <footer>
       <a href="http://www.stonesquareddevelopment.com" target="_blank"><p>&copy;2019 StoneSquared<sup>2</sup> Development</p></a>

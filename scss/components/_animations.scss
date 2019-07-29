@@ -28,3 +28,7 @@ li a:hover,
 footer a:hover {
   color: darken($hover-color, 20%);
 }
+
+.skeptics-pic:hover {
+  animation: pulse .3s;
+}
